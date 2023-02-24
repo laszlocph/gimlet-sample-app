@@ -4,6 +4,8 @@ For docker/k8s training purposes I need a simple sample app, where I can demonst
 
 So this is a [12factor](https://12factor.net/)-ized "webapp". I mean its a webserver with some very minimal dynamic webpage(s).
 
+dummy
+
 ## Usage
 
 ```
