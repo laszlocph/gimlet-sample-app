@@ -1,0 +1,13 @@
+app: gimlet-sample-app
+env: deleteme111
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.41.0
+values:
+  gitRepository: laszlocph/gimlet-sample-app
+  gitSha: '{{ .SHA }}'
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
