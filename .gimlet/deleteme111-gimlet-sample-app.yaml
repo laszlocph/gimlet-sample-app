@@ -8,6 +8,9 @@ chart:
 values:
   gitRepository: laszlocph/gimlet-sample-app
   gitSha: '{{ .SHA }}'
+  image:
+    repository: ghcr.io/laszlocph/gimlet-sample-app
+    tag: TAG
 strategicMergePatches: ""
 json6902Patches: []
 manifests: ""
