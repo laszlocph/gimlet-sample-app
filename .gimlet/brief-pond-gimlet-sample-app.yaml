@@ -1,0 +1,13 @@
+app: gimlet-sample-app
+env: brief-pond
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.47.0
+values:
+  gitRepository: laszlocph/gimlet-sample-app
+  gitSha: '{{ .SHA }}'
+  image:
+    repository: ghcr.io/laszlocph/gimlet-sample-app
+    tag: '{{ .SHA }}'
